@@ -1,0 +1,12 @@
+
+"production": {
+    "android": {
+        "buildType": "app-bundle"
+    }
+}
+
+
+eas build --platform android
+
+
+eas submit --platform ios 
